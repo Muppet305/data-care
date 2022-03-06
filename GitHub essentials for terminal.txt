@@ -1,0 +1,35 @@
+# Add repository from GitHub
+git add remote https://repository_URL
+
+# Initialize repository
+git init
+
+# Add a file
+git add filename
+
+# Check status
+git status
+
+# How to commit
+git commit
+	"""I added a file (short description of changes)"""
+	#empty line
+	"""The files I added include a full list of pharmacies to be scraped [...] (full description)
+
+# Commit with a message
+git commit -m "Hi, this is my commit"
+
+# See what you have committed and the changes you have made
+git log -p
+
+# New branch
+git checkout -b branch_name
+
+# Push (save your changes)
+git push
+# Or force it in order not to wait for anyone's permission
+git push -f
+
+# Pull (see what others changed)
+git pull
+
